@@ -35,7 +35,7 @@ time.sleep(1);
 print_slow("Let's start by learning about variables - ");
 print_slow("But first, what is a variable?\nA variable is a memory box ");
 print_slow("where the computer holds onto some piece of information. For example, a number. ");
-print_slow("Variables are reffered to by a unique name, like x, y, num1, or other descriptors.\n");
+print_slow("Variables are refered to by a unique name, like x, y, num1, or other descriptors.\n");
 time.sleep(1);
 
 
@@ -57,7 +57,7 @@ garbage = raw_input()
 
 
 print_slow("\nOne of the most essential tools of computer science is basic arithmetic. ");
-print_slow("Addition, subtraction, multiplication, and division - as you prboably ");
+print_slow("Addition, subtraction, multiplication, and division - as you probably ");
 print_slow("know, these operations are represtented by +, -, *, and /\n\n");
 time.sleep(2);
 
@@ -99,20 +99,20 @@ time.sleep(1);
 
 
 print_slow("At this point you should have all the skills that you need in order to solve for x in your equations! Feel free to scroll back and look at the different tips for python, play around some more with the interpreter, or solve some math problems!");
-print_slow("Now that you know some basic math, let's see if we can use it to draw and control turtles! Press enter to continue when you're ready.\n")
+print_slow("\nNow that you know some basic math, let's see if we can use it to draw and control turtles! Press enter to continue when you're ready.\n")
 garbage = raw_input()
 
 
-print_slow("\nLet's make a turtle! In order to tell your computer how to make a turtle, you have to type ")
+print_slow("\nLet's make a turtle! In order to tell your computer how to make a turtle, you have to type")
 print_code("import turtle")
-print_slow(". Try it now! Press enter to continue when you're done.\n")
+print_slow("Try it now! Press enter to continue when you're done.\n")
 garbage = raw_input()
 
 
 print_slow("\nSweet! Now let's make a new turtle. Think of a name for your turtle! You can name it whatever you want. I'm going to name mine Tina.\n")
-print_slow("Once you've thought of a name for your turtle, you can create it! I'm going to create mine by typing ")
+print_slow("Once you've thought of a name for your turtle, you can create it! I'm going to create mine by typing")
 print_code("tina = turtle.Turtle()")
-print_slow(" . This creates a Turtle OBJECT. An object is something that can be modified by different built-in commands. From now on, any time you see me use 'tina' in code, you should replace it with your turtle's name! Press enter to continue when you've created a turtle object.\n")
+print_slow("This creates a Turtle OBJECT. An object is something that can be modified by different built-in commands. From now on, any time you see me use 'tina' in code, you should replace it with your turtle's name! Press enter to continue when you've created a turtle object.\n")
 garbage = raw_input()
 
 
@@ -138,7 +138,7 @@ print_slow("\nYou're now a turn-master! I guess you can call your turtle 'Tina T
 print_slow("\nThat was a bad joke for old people! Sorry. Anyway, to make your turtle draw a circle, type \n")
 print_code("tina.circle(50)")
 time.sleep(5)
-print_slow("What do you think that number means? Experiment with different numbers! Press enter when you're ready to continue.\n")
+print_slow("\nWhat do you think that number means? Experiment with different numbers! Press enter when you're ready to continue.\n")
 garbage = raw_input()
 
 
