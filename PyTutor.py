@@ -69,12 +69,12 @@ time.sleep(.5);
 
 print_slow("\nWhat do you get when you try ");
 print_code("x*27");
-result = int(input());
+result = int(raw_input());
 
 while result != 216:
 	print_slow("Oops, it looks like you may have had some issues.\n");
 	print_slow("Make sure that x = 8 and then try again: ");
-	result = int(input());
+	result = int(raw_input());
 
 print_slow("By now, you've got multiplication down, now play around with the other operations!\n\n");
 time.sleep(1);
